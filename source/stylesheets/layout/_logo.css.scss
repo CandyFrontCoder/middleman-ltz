@@ -1,0 +1,23 @@
+#logo {
+	margin-top: 63px;
+	float:left;
+	a {
+		color:$white;
+		font-family: $base-font;
+		font-size: $logo-size;
+		letter-spacing: $logo-letter-spacing;
+		line-height: 0;
+		text-decoration: none;
+	}
+		.open-light {
+			font-weight: $light;
+			margin-left: 260px;
+		}
+
+		.open-bold {
+			font-weight: $bold;
+		}
+}
+
+
+

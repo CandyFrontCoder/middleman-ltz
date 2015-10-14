@@ -1,1 +1,15 @@
 // Your footer style
+#footer {
+	text-align: center;
+	margin-bottom: 50px;
+
+	li a {
+		font-family: $projet-font;
+		color: $grey-lighter;
+		letter-spacing: $spacing-social;
+		font-weight: $normal;
+		font-size: $size-social;
+		line-height: $height-social;
+		text-decoration: none;
+	}
+}

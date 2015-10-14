@@ -1,0 +1,311 @@
+#background {
+	width: 100%;
+	height: 100%;
+	border: 30px solid $grey;
+	background-color: $black;
+}
+
+
+#infos ul {
+	margin-top: 60px;
+	margin-right:263px;
+	float:right;
+
+		li {
+		margin-left: 16px;
+
+			a {	
+			color:$white;
+			font-family: $base-font;
+			font-weight: $bold;
+			font-size: $base-size;
+			line-height: 0;
+			text-decoration: none;
+			}
+		}	
+}
+
+#container {
+	width: auto;
+	margin-left: 14.15%;
+	margin-right: 13.5%;
+	margin-top: 5%;
+	//border: 1px solid $yellow;
+}
+
+#intro {
+	
+		.mono-title-1{
+			margin-top: 0;
+			font-family: $projet-font;
+			color: $white;
+			letter-spacing: $spacing-mono-title;
+			font-weight: $normal;
+			font-size: $size-mono-title;
+			line-height: $height-mono-title;
+			text-transform: uppercase;
+		}
+
+		#presentation{
+			width: 75%;
+			margin-top: 10px;
+			//border: 1px solid $purple;
+
+			p {
+				font-family: $presentation-font;
+				color: $white;
+				letter-spacing: $spacing-presentation;
+				font-size: $size-presentation;
+				line-height: $height-presentation;
+			}
+		}
+
+		.mono-title-2 {
+			display: block;
+			margin-top: 50px;
+			font-family: $projet-font;
+			color: $white;
+			letter-spacing: $spacing-mono-title;
+			font-weight: $normal;
+			font-size: $size-mono-title;
+			line-height: $height-mono-title;
+			text-transform: uppercase;
+		}
+ 
+		ul {
+			margin-top:10px;
+
+			li {
+
+				a {
+					font-family: $projet-font;
+					color: $grey-lighter;
+					letter-spacing: $spacing-social;
+					font-weight: $normal;
+					font-size: $size-social;
+					line-height: $height-social;
+					text-decoration: none;
+				}
+			}
+		}	
+}
+
+#works {
+	width:100%;
+	margin-top: 100px;
+	//border: 1px solid $purple;
+
+	#projects {
+		width: auto;
+		margin-left: 39%;
+		margin-right: 14%;
+		//border: 1px solid $yellow;
+
+		h2{
+			border-bottom : 3px solid $white;
+			margin-bottom: 30px;
+			padding-bottom: 30px;
+			margin-top:0;
+			font-family: $presentation-font;
+			color: $white;
+			letter-spacing: $spacing-big-title;
+			font-weight: $bold;
+			font-size: $size-big-title;
+			line-height: $height-big-title;
+		}
+
+		.mono-title-3 {	
+			font-family: $projet-font;
+			color: $white;
+			letter-spacing: $spacing-mono-title;
+			font-weight: $normal;
+			font-size: $size-mono-title;
+			line-height: $height-mono-title;
+			text-transform: uppercase;
+		}
+			.model {
+				margin-top: 30px;
+				//border: 1px solid $purple;
+
+				.list-model {
+					border-top-style: solid;
+    				border-top-width: thin; 
+    				border-top-color: $grey-lighter;
+					//border: 1px solid $yellow;
+		
+				.left {
+					margin-top: 25px;
+					margin-bottom: 25px;
+					float: left;
+					//border: 1px solid $red;
+
+					.projet-title {
+						font-family: $base-font;
+						color: $grey-darker;
+						letter-spacing: $spacing-projet-title;
+						font-weight: $bold;
+						font-size: $size-projet-title;
+						line-height: $height-projet-title;
+					}
+				}
+
+				.right {
+					margin-top: 25px;
+					margin-bottom: 25px;
+					float: right;
+					//border: 1px solid $blue;
+					text-align: right;
+
+					.year-title {
+						margin-right: 140px;
+						font-family: $projet-font;
+						color: $white;
+						letter-spacing: $spacing-mono-title;
+						font-weight: $normal;
+						font-size: $size-mono-title;
+						line-height: $height-mono-title;
+						text-transform: uppercase;
+					}
+
+					.arrow-right {
+						font-family: $projet-font;
+						color: $white;
+						letter-spacing: $spacing-arrow-right;
+						font-weight: $normal;
+						font-size: $size-arrow-right;
+						line-height: $height-arrow-right;
+					}
+				}
+			}	
+		}
+	}	
+}
+
+#collaboration {
+	width: auto;
+	margin-left: 14.15%;
+	margin-right: 12.5%;
+	margin-top: 100px;
+	//border:1px solid $yellow;
+
+	.mono-title-4 {
+		margin: 0;
+		font-family: $projet-font;
+		color: $white;
+		letter-spacing: $spacing-mono-title;
+		font-weight: $normal;
+		font-size: $size-mono-title;
+		line-height: $height-mono-title;
+		text-transform: uppercase;
+	}
+
+	p {
+		margin-top: 15px;
+		font-family: $presentation-font;
+		color: $white;
+		letter-spacing: $spacing-collaboration;
+		font-size: $size-collaboration;
+		line-height: $height-collaboration;
+		font-weight: $bold;
+	}
+}
+
+#awards {
+	width: auto;
+	margin-left: 14.15%;
+	margin-right: 12.5%;
+	margin-bottom: 300px;
+
+	.awards-title {
+		margin-left: 50%;
+		margin-top: 110px;
+		margin-bottom: 20px;
+		
+		.normal-title {
+			font-family: $presentation-font;
+			color: $white;
+			letter-spacing: $spacing-normal-title;
+			font-size: $size-normal-title;
+			line-height: $height-normal-title;
+			font-weight: $bold;
+		}
+	}
+
+	.tableau {
+		margin-top: 0px;
+		border-top: 1px solid $grey-lighter;
+
+		.left-2 {
+			margin-top: 15px;
+			float: left;
+			//border: 1px solid $red;
+
+			.mono-title-5 {
+				font-family: $projet-font;
+				color: $white;
+				letter-spacing: $spacing-mono-title;
+				font-weight: $normal;
+				font-size: $size-mono-title;
+				line-height: $height-mono-title;
+			}
+		}
+
+		.right-2 {
+			float: right;
+			width: 50%;
+			
+			.element-left {
+				margin-top: 10px;
+				float: left;
+				text-align: left;
+
+				.awards-exemple {
+					font-family: $projet-font;
+					color: $grey-lighter;
+					letter-spacing: $spacing-thin-title;
+					font-weight: $normal;
+					font-size: $size-thin-title;
+					line-height: $height-thin-title;
+					text-transform: uppercase;
+				}
+
+				.thenero {
+					margin-top: 10px;
+					margin-bottom: 10px;
+					font-family: $base-font;
+					color: $white;
+					letter-spacing: $spacing-other-title;
+					font-weight: $normal;
+					font-size: $size-other-title;
+					line-height: $height-other-title;
+				}
+			}
+
+			.element-right {
+				margin-top: 10px;
+				float: right;
+				text-align: right;
+
+				.date {
+					font-family: $projet-font;
+					color: $grey-lighter;
+					letter-spacing: $spacing-thin-title;
+					font-weight: $normal;
+					font-size: $size-thin-title;
+					line-height: $height-thin-title;
+				}
+
+				.mention {
+					margin-top: 10px;
+					margin-bottom: 10px;
+					font-family: $base-font;
+					color: $white;
+					letter-spacing: $spacing-other-title;
+					font-weight: $normal;
+					font-size: $size-other-title;
+					line-height: $height-other-title;
+				}
+			}			
+		}
+	}	
+}
